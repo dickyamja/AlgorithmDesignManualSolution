@@ -10,7 +10,7 @@ public class Factorial {
         return number + countFactorial(number - 1);
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args ) {
         System.out.println("factorial of 5 is " + countFactorial(5));
     }
 }
